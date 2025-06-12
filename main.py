@@ -1,9 +1,9 @@
-import tkinter
+import tkinter as tk
 from tkinter import *
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    root = tkinter.Tk()
+    root = tk.Tk()
     root = Label(root, text='GeeksForGeeks.org!')
     root.pack()
 
